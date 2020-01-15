@@ -1,7 +1,21 @@
-body {
-	vertical-align: middle;
+* {
+	background-color: #000;
 }
 
-h1 {
+#content {
+	position: fixed;
+	top: 50%;
+	width: 100%;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+h1, p {
 	text-align: center;
+	font-family: 'Space Mono', monospace;
+	color: #fff;
 }
